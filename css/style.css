@@ -1,0 +1,82 @@
+/*Judy's CSS for bottom half*/
+
+.recipe {
+  border-style: solid;
+}
+
+#recipeColumn1 {
+  display: inline-block;
+
+}
+
+#recipeColumn2 {
+  display: inline-block;
+}
+
+}
+
+#recipeDiv {
+  /*margin-left: 100px;*/
+  background-image: url("img/lab-assets/list-bg.png");
+  border-style: solid;
+}
+
+#vanessa {
+  position: absolute;
+  float: right;
+  margin-top: 5px;
+}
+
+h4 {
+  position: relative;
+  display: inline;
+  margin-left: 100px;
+
+}
+
+#authorByline {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+  position: absolute;
+}
+
+#secondAuthorByline {
+  margin-top: 30px;
+}
+
+#food {
+  margin-left: 100px;
+  margin-right: 600px;
+  border-style: none;
+  position: relative;
+
+}
+
+#shareButton {
+  display: inline;
+  margin-left: 800px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float: left;
+  background-color: #FF7F50;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding:  20px 40px 20px 40px;
+  position: relative;
+
+}
+
+#footer {
+  display: block;
+}
+
+#logo {
+  display: block;
+  margin: auto auto auto auto;
+
+}
+
+footer p {
+  text-align: center;
+}
