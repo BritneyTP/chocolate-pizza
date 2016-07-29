@@ -1,7 +1,73 @@
+/*Brits header part*/
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+   width: 100%;
+   height: 100%;
+   background-color: white;
+
+}
+
+header {
+    background-color: white;
+    /*border-collapse: collapse;*/
+    color: black;
+    padding: 0px;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    /*border-style: inset;*/
+    border-width: 5px;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+}
+aside {
+    width: 17%;
+    display: inline-block;
+    background-color:;
+    padding:;
+    min-height: 100%;
+}
+aside ul {
+    list-style-type: none;
+}
+
+img {
+    float: center;
+    display: inline-block;
+    padding: 10px;
+}
+h1 {
+float: inherit;
+}
+p {
+  font-size: 22;
+  color: black;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+span {
+  border-bottom-style: ;
+}
+
+#logo {
+  display: inline;
+  float: right;
+  padding: inherit;
+}
+
+
 /*Judy's CSS for bottom half*/
 
 .recipe {
-  border-style: solid;
+  border-style: none;
 }
 
 #recipeColumn1 {
@@ -16,9 +82,10 @@
 }
 
 #recipeDiv {
-  /*margin-left: 100px;*/
-  background-image: url("img/lab-assets/list-bg.png");
-  border-style: solid;
+  /*margin-left: 100px;*
+  /*border-style: solid;*/
+  /*position: absolute;*/
+  /*top: 500px;*/
 }
 
 #vanessa {
@@ -79,4 +146,16 @@ h4 {
 
 footer p {
   text-align: center;
+}
+
+.item {
+  /*background-image: url("../img/lab-assets/list-bg.png");*/
+  postition: relative;
+}
+h3 {
+  background-image: url('https://github.com/codefellows/seattle-201d11/blob/master/class-10-js_debugging-more_css_layout/lab/lab-assets/list-bg.png?raw=true');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
 }
